@@ -1,0 +1,33 @@
+.navbar-default {
+    margin-bottom: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+
+#index .header-section {
+    background-image: url('http://media.floridarealtors.org/wp-content/uploads/2011/07/welcome-home.jpg');
+}
+
+.header-section {
+    width: 100%;
+    height: calc(100vh - 50px);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-header {
+  text-align: center;
+}
+
+.navbar-toggle {
+      z-index: 999;
+}
+.navbar navbar-default{
+  margin-bottom: 80px
+}
