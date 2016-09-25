@@ -5,7 +5,7 @@
 }
 
 #index .header-section {
-    background-image: url('http://media.floridarealtors.org/wp-content/uploads/2011/07/welcome-home.jpg');
+    background-image: url('http://www.californiahome.me/wp-content/uploads/iStock_000001223028Medium.jpg');
 }
 
 .header-section {
@@ -30,4 +30,16 @@
 }
 .navbar navbar-default{
   margin-bottom: 80px
+}
+
+.all-body {
+  background-color: #D2B48C
+}
+
+.nav-logo {
+  padding-left: 0px
+}
+
+.footer-position{
+  margin-top: 50px
 }
