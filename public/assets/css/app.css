@@ -67,3 +67,35 @@ color: green;
 h2, .h2 {
 color: green;
 }
+
+#head-nav .navbar-brand
+{
+    margin: 0;
+    padding: 0;
+    max-height: 100%;
+    margin-left: -15px;
+  }
+
+#head-nav .container-fluid {
+      padding-right: 0px;
+    }
+
+
+.btn-primary:hover, .btn-primary:focus {
+        background-color: inherit;;
+
+    }
+
+.btn-primary:hover {
+        border-color: white;
+    }
+
+
+
+.btn-default:hover, .btn-default:focus {
+    background-color: white;
+}
+
+.btn-default:hover {
+    color: white;;
+    border-color: white;
