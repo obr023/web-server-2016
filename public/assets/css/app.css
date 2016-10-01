@@ -5,7 +5,7 @@
 }
 
 #index .header-section {
-    background-image: url('http://www.californiahome.me/wp-content/uploads/iStock_000001223028Medium.jpg');
+    background-image: url('http://www.dmrealty.com.br/wp-content/uploads/2015/10/comprar-uma-casa-na-Florida.jpg');
 }
 
 .header-section {
@@ -23,23 +23,47 @@
 
 .text-header {
   text-align: center;
+  color: #white
 }
 
 .navbar-toggle {
       z-index: 999;
 }
-.navbar navbar-default{
+.navbar navbar-default {
   margin-bottom: 80px
 }
 
 .all-body {
-  background-color: #D2B48C
+  background-color: #F2F4F4;
 }
 
 .nav-logo {
   padding-left: 0px
 }
 
-.footer-position{
+.footer-position {
   margin-top: 50px
+}
+
+.header-buttons {
+  margin-top: 50px;
+}
+
+.btn {
+  border-color: black;
+  color: green;
+  background-image: linear-gradient(to bottom, #F2F4F4 0%, #F2F4F4 100%);
+}
+
+h1, .h1 {
+    font-size: 65px;
+    color: mediumspringgreen;
+}
+
+h3, .h3 {
+color: green;
+}
+
+h2, .h2 {
+color: green;
 }
