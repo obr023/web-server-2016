@@ -41,9 +41,9 @@
   padding-left: 0px
 }
 
-.footer-position {
+/*.footer-position {
   margin-top: 50px
-}
+}*/
 
 .header-buttons {
   margin-top: 50px;
@@ -99,3 +99,24 @@ color: green;
 .btn-default:hover {
     color: white;;
     border-color: white;
+}
+
+.add-ads {
+  text-align: center;
+}
+
+.finish {
+  margin-top: 120px;
+  font-size: 56px;
+color: green;
+font-style: italic;
+}
+
+#game {
+  height: calc(100vh - 100px);
+}
+
+.game-img {
+  width: 100%;
+  height: 400px;
+}
