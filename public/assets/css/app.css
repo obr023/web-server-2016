@@ -120,3 +120,28 @@ font-style: italic;
   width: 100%;
   height: 400px;
 }
+
+.btn-primary.active {
+  color: green;
+  border-color: black;
+  background-color: white;
+}
+
+.btn-primary:active:hover, .btn-primary.active:hover, .open > .dropdown-toggle.btn-primary:hover, .btn-primary:active:focus, .btn-primary.active:focus, .open > .dropdown-toggle.btn-primary:focus, .btn-primary:active.focus, .btn-primary.active.focus, .open > .dropdown-toggle.btn-primary.focus {
+  color: green;
+  border-color: black;
+  background-color: white;
+}
+
+.game-instructions {
+  color: Green;
+  font-size: 56px;
+  margin-top: 15px;
+}
+
+.total-game {
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    color: green
+  }

@@ -19,7 +19,7 @@ var casa1 = {
   sell: 2300000,
   alt: 'House 1',
   next: 'paso(casa1, paso2)',
-  description: 'bla bla'
+  description: 'This two bedroom home features a great room and an open island kitchen with wine refrigerator. The master suite has a spa-like five piece bath and an oversized walk-in closet. The residence also includes a second bedroom with en suite bath, a powder room and a washer/dryer.'
 };
 var casa2 = {
   img: 'assets/images/House2.png',
@@ -27,7 +27,7 @@ var casa2 = {
   sell: 1825000,
   alt: 'House 2',
   next: 'paso(casa2, paso2)',
-  description: 'bla bla'
+  description: 'Stunning Light Filled Corner Unit Townhouse designed by noted Architect William Brantley! This Fabulous 2 Bedroom/2.5 Bath plus Office/Den (easily used as a 3rd Bedroom) feels just like a Single Family Home! Conveniently located just moments from Main St., Abbot Kinney, Santa Monica Place, 3rd St. Promenade & the Beach! Enter directly through a gated drive into your own private two car garage w/ direct entry into the unit. '
 };
 var casa3 = {
   img: 'assets/images/House3.png',
@@ -35,7 +35,7 @@ var casa3 = {
   sell: 550000,
   alt: 'House 3',
   next: 'paso(casa3, paso3)',
-  description: 'bla bla'
+  description: 'Well presented 4/3/1 David Weekly home tucked away in the Laureate Park community in Lake Nona. Location, location, location! Close to the expressway and every convenience, youre at the center of it all, yet enjoy the feeling as if you are away from it all. This luxury home is designed to cater to the entertainers soul with private pool with fountains and custom made pergola, all accentuated with plantation shutters for that traditional Florida flair. '
 };
 var casa4 = {
   img: 'assets/images/House4.png',
@@ -43,7 +43,7 @@ var casa4 = {
   sell: 529900,
   alt: 'House 4',
   next: 'paso(casa4, paso3)',
-  description: 'bla bla'
+  description: 'Beautiful 4 bed/5 bath Pool & Spa home situated on a huge fenced corner lot w/ a view of the new Southern Oaks lighted Fountain. Home features include: Hardwood Floors, 3 Fireplaces, High Ceilings w/ Accent Lighting in the Formal Living & Dining Room, Crown Molding, Custom Built Cabinetry, a built in BBQ & outdoor sitting area & Plantation Shutters throughout. The Gourmet Kitchen is 20x12 w/ a Brick Fireplace, Copper Range Hood, Raised Panel Wood Cabinets. '
 };
 var casa5 = {
   img: 'assets/images/House5.png',
@@ -51,7 +51,7 @@ var casa5 = {
   sell: 137500,
   alt: 'House 5',
   next: 'paso(casa5, "final")',
-  description: 'bla bla'
+  description: 'This home does have a detached garage long enough to fit 2 cars deep* Garage is a drive through* There is a covered carport in front of the home as well* Back of the home has a storage shed* The area between the home and garage is covered to provide additional storage space Entrance to the inside of the home is a covered wood deck with views of the Mountains* As you go inside you have an eat in Kitchen* Vaulted ceilings are in the middle of the home between the living room and dining room 3 bedrooms on the main level '
 };
 var casa6 = {
   img: 'assets/images/House6.png',
@@ -59,7 +59,7 @@ var casa6 = {
   sell: 130000,
   alt: 'House 6',
   next: 'paso(casa6, "final")',
-  description: 'bla bla'
+  description: 'Doll House! Hard woods run under the carpet waiting to be restored to beauty,no maintenance vinyl siding,vinyl windows,6 panel doors,Completely remodeled kitchen with imported granite counter tops. Family room with fireplace and stone hearth,fully fenced yard front and back!,newer wiring in kitchen with replaced electrical panel. Mature landscaping with huge beautiful shade trees and mountain views. This is a rare and unique opportunity!,Auto Sprinklers and Fireplace has not been used by the homeowner for 5 years,inspect if concerned.'
 };
 var paso2 = [casa3, casa4];
 var paso3 = [casa5, casa6];
