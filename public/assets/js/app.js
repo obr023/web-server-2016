@@ -6,7 +6,8 @@ function paso(selected, proximas) {
     var gain_loss = balance - 1925000;
     var finalMessage = "Total Balance " + accounting.formatMoney(balance) + "<br> Gain/Losses: " + accounting.formatMoney(gain_loss);
     $('#instructions').html('Game Finished');
-    $('#game-content').html('Total Balance: '+ finalMessage);
+    $('#game-content').html('Total Balance: '+ finalMessage + '<br><section> <div class="container text-header header-section" style="height: 120px"> <div class="col-xs-12 col-sm-6"> <a href="game.html" class="btn btn-primary btn-lg active btn-block" role="button" aria-pressed="true">Play Again</a> </div> </div> </section>');
+    $('.extra-space').remove();
   } else {
     var paso2Options = constructoption(proximas[0]) + constructoption(proximas[1]);
     $('#game-content').html(paso2Options);
